@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Satisfy&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.loading-container {
+    height: 50dvh;
+    width: 100%;
+}
+
+nav {
+    box-shadow: 2px 10px 10px -13px rgba(0,0,0,0.2);
+}
+/*  */
