@@ -28,8 +28,8 @@ const Product = ({searchMeal}) => {
       <div className={`grid lg:grid-cols-5 grid-cols-2 md:grid-cols-3 gap-2 md:gap-4 relative`}>
 
         {isLoading && 
-          <div className="text-slate-800 loading-container absolute inset-0 flex justify-center items-center">
-            <span className="loading loading-spinner loading-lg"></span>
+          <div className="text-slate-800 loading-container absolute inset-0 items-center">
+            <span className="loading loading-spinner loading-lg z-50 relative text-slate-200 left-[50%]"></span>
           </div>
         }
 
