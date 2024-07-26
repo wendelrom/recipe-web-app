@@ -29,7 +29,7 @@ const Product = ({searchMeal}) => {
 
         {isLoading && 
           <div className="text-slate-800 loading-container absolute inset-0 items-center">
-            <span className="loading loading-spinner loading-lg z-50 relative text-slate-200 left-[50%]"></span>
+            <span className="loading loading-spinner loading-lg z-50 relative text-slate-300 left-[50%]"></span>
           </div>
         }
 

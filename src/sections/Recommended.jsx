@@ -7,7 +7,7 @@ const Recommended = () => {
 
   return (
     <section className="min-h-screen bg-orange-100 pb-16">
-      <div className="flex justify-center flex-col md:flex-row gap-4 md:gap-8 w-full px-4 cursor-pointer border-4 border-green-600">
+      <div className="flex justify-center flex-col md:flex-row gap-4 md:gap-8 w-full px-4 cursor-pointer">
         {imagesCategory.map((image, index) => (
           <div key={index} className="md:relative md:-top-16 lg:-top-24  bg-orange-50 w-full sm:w-52 lg:w-72 group overflow-hidden rounded-xl">
             <img src={image.category} alt={`pic${index + 1}`} className="w-full h-full object-cover group-hover:brightness-50 transition duration-500 ease-in-out" />
